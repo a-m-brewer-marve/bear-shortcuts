@@ -1,5 +1,14 @@
-# Bear daily note shortcuts — distribution withdrawn
+# Bear daily note shortcuts — `#Daily` date tags
 
-The initial generated `.shortcut` files were **unsigned**. iOS rejects unsigned shortcut files, so the release assets and repository copies were removed on 2026-07-17.
+**Current signed release:** [v1.1.0](https://github.com/a-m-brewer-marve/bear-shortcuts/releases/tag/v1.1.0)
 
-A correct distribution must be produced by Apple Shortcuts on a signed-in iPhone, iPad, or Mac — either as a signed export or a native iCloud Shortcut share link. This repository will be updated only once a valid, device-tested signed release exists.
+Two Apple-signed shortcuts for Bear, signed through macOS Shortcuts using **Anyone** mode:
+
+- **Create Daily Note** creates a note titled `yyyy-MM-dd`, with `JOURNAL` and `LOG` sections, tagged `#Daily/yyyy/MM/yyyy-MM-dd` — for example, `#Daily/2026/07/2026-07-17`.
+- **Log Daily Note** accepts multiline text and adds timestamped bullets beneath the `LOG` heading in today’s note.
+
+Install the Daily Note shortcut before the Log shortcut.
+
+## Earlier release
+
+v1.0.0 was withdrawn because it contained unsigned files rejected by iOS. Do not install it.
